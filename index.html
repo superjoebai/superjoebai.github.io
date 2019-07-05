@@ -234,6 +234,531 @@
   
   
   <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2019/02/20/Docker-Study-Day-4-2/">
+
+    <span hidden itemprop="author" itemscope="" itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="Joe Bai">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="https://avatars2.githubusercontent.com/u/5300359?v=4&s=460">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope="" itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Joe's studio">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+                
+                <a class="post-title-link" href="/2019/02/20/Docker-Study-Day-4-2/" itemprop="url">Docker Study - Day 4</a></h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">Posted on</span>
+              
+              <time title="Post created" itemprop="dateCreated datePublished" datetime="2019-02-20T20:49:11+08:00">
+                2019-02-20
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+
+          
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <h4 id="How-to-push-images-to-Docker-hub"><a href="#How-to-push-images-to-Docker-hub" class="headerlink" title="How to push images to Docker hub"></a><center>How to push images to Docker hub</center></h4><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">docker login</span><br><span class="line">docker tag webimage:latest bkykkk/webimage:latest</span><br><span class="line">docker push bkykkk/webimage:latest</span><br></pre></td></tr></table></figure>
+<p>Run the container as front bash<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">docker run -it --name vm1 ubuntu:18.04 bash</span><br></pre></td></tr></table></figure></p>
+<p>Search images which stars over N</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">docker search centos -s N</span><br></pre></td></tr></table></figure>
+<h4 id="How-to-deploy-the-normal-ubuntu-system"><a href="#How-to-deploy-the-normal-ubuntu-system" class="headerlink" title=" How to deploy the normal ubuntu system"></a><center> How to deploy the normal ubuntu system</center></h4><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">apt-get update; apt-get install openssh-server -y</span><br><span class="line">apt-get install net-tools</span><br><span class="line">apt-get install iputils-ping</span><br></pre></td></tr></table></figure>
+<h4 id="Get-all-ip-for-all-containers"><a href="#Get-all-ip-for-all-containers" class="headerlink" title=" Get all ip for all containers"></a><center> Get all ip for all containers</center></h4><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">docker inspect -f &apos;&#123;&#123;.Name&#125;&#125; - &#123;&#123;.NetworkSettings.IPAddress &#125;&#125;&apos; $(docker ps -aq)</span><br></pre></td></tr></table></figure>
+          
+        
+      
+    </div>
+    
+    
+    
+
+    
+
+    
+
+    
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
+    
+      
+
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal" itemscope="" itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2019/02/19/Docker-Study-Day-3/">
+
+    <span hidden itemprop="author" itemscope="" itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="Joe Bai">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="https://avatars2.githubusercontent.com/u/5300359?v=4&s=460">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope="" itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Joe's studio">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+                
+                <a class="post-title-link" href="/2019/02/19/Docker-Study-Day-3/" itemprop="url">Docker Study - Day 3</a></h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">Posted on</span>
+              
+              <time title="Post created" itemprop="dateCreated datePublished" datetime="2019-02-19T20:34:23+08:00">
+                2019-02-19
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+
+          
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <h4 id="How-to-use-bind-on-docker"><a href="#How-to-use-bind-on-docker" class="headerlink" title=" How to use bind on docker"></a><center> How to use bind on docker</center></h4><p>使用bind类型，source指定当前目录，使用nginx静态页，加载以nginx为镜像的容器<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">docker run -d 8080:80 --name nginx1 --mount type=bind,source=&quot;$&#123;PWD&#125;&quot;,target=/usr/share/nginx/html/ nginx</span><br></pre></td></tr></table></figure></p>
+<h4 id="Docker-compose-Manage-differernt-containers"><a href="#Docker-compose-Manage-differernt-containers" class="headerlink" title=" Docker compose, Manage differernt containers"></a><center> Docker compose, Manage differernt containers</center></h4><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">https://github.com/docker/compose/releases</span><br></pre></td></tr></table></figure>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">sudo su</span><br><span class="line">curl -L https://github.com/docker/compose/releases/download/1.24.0-rc1/docker-compose-`uname -s`-`uname -m` -o /usr/local/bin/docker-compose</span><br><span class="line"></span><br><span class="line">chmod +X /usr/local/bin/docker-compose</span><br></pre></td></tr></table></figure>
+<p>使用Compose, redius,搭建web</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br></pre></td><td class="code"><pre><span class="line">cd docker-study/compose1/</span><br><span class="line"></span><br><span class="line">启动compose</span><br><span class="line">docker-compose up</span><br><span class="line"></span><br><span class="line">后台启动</span><br><span class="line">docker-compose up -d</span><br><span class="line"></span><br><span class="line">删除</span><br><span class="line">docker-compose down</span><br><span class="line"></span><br><span class="line">停止</span><br><span class="line">docker-compose stop</span><br></pre></td></tr></table></figure>
+          
+        
+      
+    </div>
+    
+    
+    
+
+    
+
+    
+
+    
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
+    
+      
+
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal" itemscope="" itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2019/02/17/ocker-Study-Day-2/">
+
+    <span hidden itemprop="author" itemscope="" itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="Joe Bai">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="https://avatars2.githubusercontent.com/u/5300359?v=4&s=460">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope="" itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Joe's studio">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+                
+                <a class="post-title-link" href="/2019/02/17/ocker-Study-Day-2/" itemprop="url">Docker Study - Day 2</a></h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">Posted on</span>
+              
+              <time title="Post created" itemprop="dateCreated datePublished" datetime="2019-02-18T07:45:00+08:00">
+                2019-02-18
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+
+          
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <h4 id="How-to-make-Volume-on-Docker"><a href="#How-to-make-Volume-on-Docker" class="headerlink" title="How to make Volume on Docker"></a><center>How to make Volume on Docker</center></h4><h5 id="docker-test-date-command-and-write-to-a-txt"><a href="#docker-test-date-command-and-write-to-a-txt" class="headerlink" title="docker test date command and write to a.txt"></a>docker test date command and write to a.txt</h5><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">docker exec demovolume sh -c &apos;data &gt; a.txt&apos;</span><br><span class="line">docker exec demovolume sh -c &apos;cat a.txt&apos;</span><br></pre></td></tr></table></figure>
+<h5 id="Delete-container-then-cat-a-txt-no-any-result"><a href="#Delete-container-then-cat-a-txt-no-any-result" class="headerlink" title="Delete container then cat a.txt, no any result"></a>Delete container then cat a.txt, no any result</h5><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">docker rm -f demovolume</span><br><span class="line">docker run -d --name demovolume --mount source=web,target=/volume webimage</span><br><span class="line"></span><br><span class="line">docker exec demovolume sh -c &apos;cat a.txt&apos;</span><br></pre></td></tr></table></figure>
+<h5 id="If-save-on-volume-the-data-will-be-saved"><a href="#If-save-on-volume-the-data-will-be-saved" class="headerlink" title="If save on volume, the data will be saved"></a>If save on volume, the data will be saved</h5><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">docker exec demovolume sh -c &apos;date &gt; /volume/a.txt&apos;</span><br><span class="line">docker rm -f demovolume</span><br><span class="line">docker run -d  --name demovolume sh -c &apos;cat /volume/a.txt&apos;</span><br></pre></td></tr></table></figure>
+<h5 id="Muilti-container-share-volume"><a href="#Muilti-container-share-volume" class="headerlink" title="Muilti container share volume"></a>Muilti container share volume</h5><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">docker run -d --name demovolume2 --mount source=web,target=/v2 webimage</span><br></pre></td></tr></table></figure>
+<h4 id="Share-volume-from-muilti-containers"><a href="#Share-volume-from-muilti-containers" class="headerlink" title="Share volume from muilti containers"></a>Share volume from muilti containers</h4><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">docker run -it -v /dbdata --name dbdata ubuntu</span><br><span class="line">docker run -it --volumes-from dbdata --name db1 ubuntu</span><br><span class="line"></span><br><span class="line">#### Backup data volumes</span><br></pre></td></tr></table></figure>
+<pre><code>
+</code></pre>
+          
+        
+      
+    </div>
+    
+    
+    
+
+    
+
+    
+
+    
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
+    
+      
+
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal" itemscope="" itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2019/02/16/Docker-Study/">
+
+    <span hidden itemprop="author" itemscope="" itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="Joe Bai">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="https://avatars2.githubusercontent.com/u/5300359?v=4&s=460">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope="" itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Joe's studio">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+                
+                <a class="post-title-link" href="/2019/02/16/Docker-Study/" itemprop="url">Docker Study - Day 1</a></h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">Posted on</span>
+              
+              <time title="Post created" itemprop="dateCreated datePublished" datetime="2019-02-16T23:58:00+08:00">
+                2019-02-16
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+            <span class="post-category">
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">In</span>
+              
+              
+                <span itemprop="about" itemscope="" itemtype="http://schema.org/Thing">
+                  <a href="/categories/Docker/" itemprop="url" rel="index">
+                    <span itemprop="name">Docker</span>
+                  </a>
+                </span>
+
+                
+                
+              
+            </span>
+          
+
+          
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <h2 id="Install"><a href="#Install" class="headerlink" title="Install"></a>Install</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">apt-get install docker</span><br></pre></td></tr></table></figure>
+<h2 id="Docker-image-install"><a href="#Docker-image-install" class="headerlink" title="Docker image install"></a>Docker image install</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">docker run -t -d -p 1000:5000 --name test ubuntu:18.04</span><br></pre></td></tr></table></figure>
+<h2 id="Docker-stop-start-status"><a href="#Docker-stop-start-status" class="headerlink" title="Docker stop, start, status"></a>Docker stop, start, status</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">docker stop test</span><br><span class="line">docker start test</span><br><span class="line">docker ps</span><br><span class="line">docker ps -a</span><br><span class="line">docker rm test</span><br><span class="line">docker rm -f test</span><br></pre></td></tr></table></figure>
+<h2 id="docker-exec"><a href="#docker-exec" class="headerlink" title="docker exec"></a>docker exec</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">docker exec test bash xxx.sh</span><br><span class="line">docker exec test apt-get update</span><br><span class="line">docker exec mkdir xxx</span><br></pre></td></tr></table></figure>
+<h2 id="docker-cp"><a href="#docker-cp" class="headerlink" title="docker cp"></a>docker cp</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">docker cp xxx.sh &quot;test:xxx.sh&quot;</span><br></pre></td></tr></table></figure>
+<h2 id="sh-file-to-auto-deploy"><a href="#sh-file-to-auto-deploy" class="headerlink" title="sh file to auto-deploy"></a>sh file to auto-deploy</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">****xxx.sh****</span><br><span class="line">apt-get update</span><br><span class="line">apt-get install python3</span><br></pre></td></tr></table></figure>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">docker exec test bash xxx.sh</span><br></pre></td></tr></table></figure>
+<h2 id="dockerfile-to-package-the-custom-image-Web-framework-flask"><a href="#dockerfile-to-package-the-custom-image-Web-framework-flask" class="headerlink" title="dockerfile to package the custom image (Web framework, flask)"></a>dockerfile to package the custom image (Web framework, flask)</h2><p>Two files: app.py and Dockerfile</p>
+<p>pp.py</p>
+<figure class="highlight plain"><figcaption><span>app.py</span></figcaption><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br></pre></td><td class="code"><pre><span class="line"></span><br><span class="line">from flask import Flask</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">app = Flask(__name__)</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">@app.route(&apos;/&apos;)</span><br><span class="line">def index():</span><br><span class="line">    return &apos;Hello from Dockerfile&apos;</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">if __name__ == &quot;__main__&quot;:</span><br><span class="line">    app.run(host=&quot;0.0.0.0&quot;, debug=True)</span><br><span class="line">End content</span><br><span class="line"></span><br><span class="line">Dockerfile content</span><br><span class="line"># 在 Dockerfile 文件中 # 是注释</span><br><span class="line"># FROM 用于指定构建镜像使用的基础镜像</span><br><span class="line">FROM ubuntu:18.04</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"># RUN 用于在构建镜像的时候在镜像中执行命令</span><br><span class="line"># 这里我们安装 python3 和 flask web 框架</span><br><span class="line">RUN apt update</span><br><span class="line">RUN apt -y install python3 python3-pip</span><br><span class="line">RUN pip3 install flask</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"># COPY 相当于命令的 docker cp</span><br><span class="line"># 把本机当前目录下的 app.py 文件拷贝到镜像的 /code/app.py</span><br><span class="line"># 和 docker cp 不同的是，COPY 会自动创建镜像中不存在的目录，比如 /code</span><br><span class="line">COPY app.py /code/app.py</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"># WORKDIR 用于指定从镜像启动的容器内的工作目录</span><br><span class="line">WORKDIR /code</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"># CMD 用于指定容器运行后要执行的命令和参数列表</span><br><span class="line"># 这样从本镜像启动容器后会自动执行 python3 app.py 这个命令</span><br><span class="line">#</span><br><span class="line"># 由于我们已经用 WORKDIR 指定了容器的工作目录</span><br><span class="line"># 所以下面的命令都是在 /code 下执行的</span><br><span class="line">CMD [&quot;python3&quot;, &quot;app.py&quot;]</span><br><span class="line"></span><br><span class="line"># 你可能会看到有资料介绍一个 ENTRYPOINT 参数用于指定容器运行后的入口程序</span><br><span class="line"># 但是这个参数在现在的意义已经很小了，请忽略之</span><br><span class="line"></span><br><span class="line">End Content</span><br></pre></td></tr></table></figure>
+<h2 id="Use-Current-directoty-to-build-the-image-called-webimage"><a href="#Use-Current-directoty-to-build-the-image-called-webimage" class="headerlink" title="Use Current directoty to build the image called webimage"></a>Use Current directoty to build the image called webimage</h2><figure class="highlight docker"><figcaption><span>build -t webimage .```</span></figcaption><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"></span><br><span class="line"><span class="comment">## Check stored images</span></span><br><span class="line"></span><br><span class="line">```docker images</span><br></pre></td></tr></table></figure>
+<h2 id="Run-docker"><a href="#Run-docker" class="headerlink" title="Run docker"></a>Run docker</h2><p><code>docker run -p 8001:5000 --name test2 webimage</code></p>
+
+          
+        
+      
+    </div>
+    
+    
+    
+
+    
+
+    
+
+    
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
+    
+      
+
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal" itemscope="" itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
     <link itemprop="mainEntityOfPage" href="http://yoursite.com/2019/02/12/begin-with-Python/">
 
     <span hidden itemprop="author" itemscope="" itemtype="http://schema.org/Person">
@@ -307,126 +832,6 @@
           
             <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">Begin with Python study.</span><br></pre></td></tr></table></figure>
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">Python study link:</span><br><span class="line"></span><br><span class="line">1. https://www.liaoxuefeng.com/wiki/0014316089557264a6b348958f449949df42a6d3a2e542c000 --廖雪峰Python</span><br><span class="line"></span><br><span class="line">2. http://www.runoob.com/python3/python3-data-type.html --菜鸟教程</span><br><span class="line"></span><br><span class="line">3. https://www.codewars.com/kata/latest/my-languages  --Codewar</span><br></pre></td></tr></table></figure>
-          
-        
-      
-    </div>
-    
-    
-    
-
-    
-
-    
-
-    
-
-    <footer class="post-footer">
-      
-
-      
-
-      
-
-      
-      
-        <div class="post-eof"></div>
-      
-    </footer>
-  </div>
-  
-  
-  
-  </article>
-
-
-    
-      
-
-  
-
-  
-  
-  
-
-  <article class="post post-type-normal" itemscope="" itemtype="http://schema.org/Article">
-  
-  
-  
-  <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2019/02/12/This-is-the-first-news/">
-
-    <span hidden itemprop="author" itemscope="" itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="Joe Bai">
-      <meta itemprop="description" content="">
-      <meta itemprop="image" content="https://avatars2.githubusercontent.com/u/5300359?v=4&s=460">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope="" itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="Joe's studio">
-    </span>
-
-    
-      <header class="post-header">
-
-        
-        
-          <h1 class="post-title" itemprop="name headline">
-                
-                <a class="post-title-link" href="/2019/02/12/This-is-the-first-news/" itemprop="url">This is the first news</a></h1>
-        
-
-        <div class="post-meta">
-          <span class="post-time">
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-calendar-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">Posted on</span>
-              
-              <time title="Post created" itemprop="dateCreated datePublished" datetime="2019-02-12T17:08:26+08:00">
-                2019-02-12
-              </time>
-            
-
-            
-
-            
-          </span>
-
-          
-
-          
-            
-          
-
-          
-          
-
-          
-
-          
-
-          
-
-        </div>
-      </header>
-    
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-
-      
-      
-
-      
-        
-          
-            <p>First page, joe bai, 2019</p>
-
           
         
       
@@ -589,6 +994,126 @@
 
 
     
+      
+
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal" itemscope="" itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2019/02/11/This-is-the-first-news/">
+
+    <span hidden itemprop="author" itemscope="" itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="Joe Bai">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="https://avatars2.githubusercontent.com/u/5300359?v=4&s=460">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope="" itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Joe's studio">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+                
+                <a class="post-title-link" href="/2019/02/11/This-is-the-first-news/" itemprop="url">This is the first news</a></h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">Posted on</span>
+              
+              <time title="Post created" itemprop="dateCreated datePublished" datetime="2019-02-12T04:08:26+08:00">
+                2019-02-12
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+
+          
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <p>First page, joe bai, 2019</p>
+
+          
+        
+      
+    </div>
+    
+    
+    
+
+    
+
+    
+
+    
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
+    
   </section>
 
   
@@ -637,12 +1162,21 @@
               
                 <a href="/archives/">
               
-                  <span class="site-state-item-count">3</span>
+                  <span class="site-state-item-count">7</span>
                   <span class="site-state-item-name">posts</span>
                 </a>
               </div>
             
 
+            
+              
+              
+              <div class="site-state-item site-state-categories">
+                <a href="/categories/index.html">
+                  <span class="site-state-item-count">1</span>
+                  <span class="site-state-item-name">categories</span>
+                </a>
+              </div>
             
 
             
@@ -650,7 +1184,7 @@
               
               <div class="site-state-item site-state-tags">
                 <a href="/tags/index.html">
-                  <span class="site-state-item-count">1</span>
+                  <span class="site-state-item-count">2</span>
                   <span class="site-state-item-name">tags</span>
                 </a>
               </div>

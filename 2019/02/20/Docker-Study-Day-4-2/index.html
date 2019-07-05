@@ -81,16 +81,17 @@
 
 
 
-<meta name="description" content="Welcome to Joe&apos;s Studio">
-<meta property="og:type" content="website">
-<meta property="og:title" content="Joe&#39;s studio">
-<meta property="og:url" content="http://yoursite.com/tags/Python/index.html">
+<meta name="description" content="How to push images to Docker hub123docker logindocker tag webimage:latest bkykkk/webimage:latestdocker push bkykkk/webimage:latest Run the container as front bash1docker run -it --name vm1 ubuntu:18.0">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Docker Study - Day 4">
+<meta property="og:url" content="http://yoursite.com/2019/02/20/Docker-Study-Day-4-2/index.html">
 <meta property="og:site_name" content="Joe&#39;s studio">
-<meta property="og:description" content="Welcome to Joe&apos;s Studio">
+<meta property="og:description" content="How to push images to Docker hub123docker logindocker tag webimage:latest bkykkk/webimage:latestdocker push bkykkk/webimage:latest Run the container as front bash1docker run -it --name vm1 ubuntu:18.0">
 <meta property="og:locale" content="zh-CN">
+<meta property="og:updated_time" content="2019-02-21T08:18:21.756Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="Joe&#39;s studio">
-<meta name="twitter:description" content="Welcome to Joe&apos;s Studio">
+<meta name="twitter:title" content="Docker Study - Day 4">
+<meta name="twitter:description" content="How to push images to Docker hub123docker logindocker tag webimage:latest bkykkk/webimage:latestdocker push bkykkk/webimage:latest Run the container as front bash1docker run -it --name vm1 ubuntu:18.0">
 
 
 
@@ -120,13 +121,13 @@
 
 
 
-  <link rel="canonical" href="http://yoursite.com/tags/Python/">
+  <link rel="canonical" href="http://yoursite.com/2019/02/20/Docker-Study-Day-4-2/">
 
 
 
 
 
-  <title>Tag: Python | Joe's studio</title>
+  <title>Docker Study - Day 4 | Joe's studio</title>
   
 
 
@@ -145,7 +146,7 @@
     
   
 
-  <div class="container sidebar-position-left ">
+  <div class="container sidebar-position-left page-post-detail">
     <div class="headband"></div>
 
     <header id="header" class="header" itemscope="" itemtype="http://schema.org/WPHeader">
@@ -219,52 +220,145 @@
           <div id="content" class="content">
             
 
-  
-  
-  
-  <div class="post-block tag">
+  <div id="posts" class="posts-expand">
+    
 
-    <div id="posts" class="posts-collapse">
-      <div class="collection-title">
-        <h1>Python<small>Tag</small>
-        </h1>
-      </div>
+  
 
-      
-        
+  
+  
+  
 
   <article class="post post-type-normal" itemscope="" itemtype="http://schema.org/Article">
-    <header class="post-header">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2019/02/20/Docker-Study-Day-4-2/">
 
-      <h2 class="post-title">
+    <span hidden itemprop="author" itemscope="" itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="Joe Bai">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="https://avatars2.githubusercontent.com/u/5300359?v=4&s=460">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope="" itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Joe's studio">
+    </span>
+
+    
+      <header class="post-header">
+
         
-            <a class="post-title-link" href="/2019/02/12/begin-with-Python/" itemprop="url">
-              
-                <span itemprop="name">Begin with Python</span>
-              
-            </a>
         
-      </h2>
+          <h1 class="post-title" itemprop="name headline">Docker Study - Day 4</h1>
+        
 
-      <div class="post-meta">
-        <time class="post-time" itemprop="dateCreated" datetime="2019-02-13T07:32:00+08:00" content="2019-02-13">
-          02-13
-        </time>
-      </div>
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">Posted on</span>
+              
+              <time title="Post created" itemprop="dateCreated datePublished" datetime="2019-02-20T07:49:11-05:00">
+                2019-02-20
+              </time>
+            
 
-    </header>
-  </article>
+            
 
+            
+          </span>
+
+          
+
+          
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
 
       
-    </div>
+      
 
+      
+        <h4 id="How-to-push-images-to-Docker-hub"><a href="#How-to-push-images-to-Docker-hub" class="headerlink" title="How to push images to Docker hub"></a><center>How to push images to Docker hub</center></h4><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">docker login</span><br><span class="line">docker tag webimage:latest bkykkk/webimage:latest</span><br><span class="line">docker push bkykkk/webimage:latest</span><br></pre></td></tr></table></figure>
+<p>Run the container as front bash<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">docker run -it --name vm1 ubuntu:18.04 bash</span><br></pre></td></tr></table></figure></p>
+<p>Search images which stars over N</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">docker search centos -s N</span><br></pre></td></tr></table></figure>
+<h4 id="How-to-deploy-the-normal-ubuntu-system"><a href="#How-to-deploy-the-normal-ubuntu-system" class="headerlink" title=" How to deploy the normal ubuntu system"></a><center> How to deploy the normal ubuntu system</center></h4><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">apt-get update; apt-get install openssh-server -y</span><br><span class="line">apt-get install net-tools</span><br><span class="line">apt-get install iputils-ping</span><br></pre></td></tr></table></figure>
+<h4 id="Get-all-ip-for-all-containers"><a href="#Get-all-ip-for-all-containers" class="headerlink" title=" Get all ip for all containers"></a><center> Get all ip for all containers</center></h4><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">docker inspect -f &apos;&#123;&#123;.Name&#125;&#125; - &#123;&#123;.NetworkSettings.IPAddress &#125;&#125;&apos; $(docker ps -aq)</span><br></pre></td></tr></table></figure>
+      
+    </div>
+    
+    
+    
+
+    
+
+    
+
+    
+
+    <footer class="post-footer">
+      
+
+      
+      
+      
+
+      
+        <div class="post-nav">
+          <div class="post-nav-next post-nav-item">
+            
+              <a href="/2019/02/19/Docker-Study-Day-3/" rel="next" title="Docker Study - Day 3">
+                <i class="fa fa-chevron-left"></i> Docker Study - Day 3
+              </a>
+            
+          </div>
+
+          <span class="post-nav-divider"></span>
+
+          <div class="post-nav-prev post-nav-item">
+            
+          </div>
+        </div>
+      
+
+      
+      
+    </footer>
   </div>
   
   
   
+  </article>
 
-  
+
+
+    <div class="post-spread">
+      
+    </div>
+  </div>
 
 
           </div>
@@ -272,6 +366,10 @@
 
 
           
+
+  
+
+
 
         </div>
         
@@ -292,8 +390,17 @@
       
 
       
+        <ul class="sidebar-nav motion-element">
+          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap">
+            Table of Contents
+          </li>
+          <li class="sidebar-nav-overview" data-target="site-overview-wrap">
+            Overview
+          </li>
+        </ul>
+      
 
-      <section class="site-overview-wrap sidebar-panel sidebar-panel-active">
+      <section class="site-overview-wrap sidebar-panel">
         <div class="site-overview">
           <div class="site-author motion-element" itemprop="author" itemscope="" itemtype="http://schema.org/Person">
             
@@ -384,6 +491,22 @@
         </div>
       </section>
 
+      
+      <!--noindex-->
+        <section class="post-toc-wrap motion-element sidebar-panel sidebar-panel-active">
+          <div class="post-toc">
+
+            
+              
+            
+
+            
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-4"><a class="nav-link" href="#How-to-push-images-to-Docker-hub"><span class="nav-number">1.</span> <span class="nav-text">How to push images to Docker hub</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#How-to-deploy-the-normal-ubuntu-system"><span class="nav-number">2.</span> <span class="nav-text"> How to deploy the normal ubuntu system</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#Get-all-ip-for-all-containers"><span class="nav-number">3.</span> <span class="nav-text"> Get all ip for all containers</span></a></li></ol></div>
+            
+
+          </div>
+        </section>
+      <!--/noindex-->
       
 
       
@@ -517,6 +640,10 @@
   
 
   
+  <script type="text/javascript" src="/js/src/scrollspy.js?v=5.1.4"></script>
+<script type="text/javascript" src="/js/src/post-details.js?v=5.1.4"></script>
+
+
 
   
 

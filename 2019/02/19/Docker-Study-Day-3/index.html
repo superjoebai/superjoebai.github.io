@@ -81,16 +81,17 @@
 
 
 
-<meta name="description" content="Welcome to Joe&apos;s Studio">
-<meta property="og:type" content="website">
-<meta property="og:title" content="Joe&#39;s studio">
-<meta property="og:url" content="http://yoursite.com/tags/Python/index.html">
+<meta name="description" content="How to use bind on docker使用bind类型，source指定当前目录，使用nginx静态页，加载以nginx为镜像的容器1docker run -d 8080:80 --name nginx1 --mount type=bind,source=&amp;quot;$&amp;#123;PWD&amp;#125;&amp;quot;,target=/usr/share/nginx/html/ nginx">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Docker Study - Day 3">
+<meta property="og:url" content="http://yoursite.com/2019/02/19/Docker-Study-Day-3/index.html">
 <meta property="og:site_name" content="Joe&#39;s studio">
-<meta property="og:description" content="Welcome to Joe&apos;s Studio">
+<meta property="og:description" content="How to use bind on docker使用bind类型，source指定当前目录，使用nginx静态页，加载以nginx为镜像的容器1docker run -d 8080:80 --name nginx1 --mount type=bind,source=&amp;quot;$&amp;#123;PWD&amp;#125;&amp;quot;,target=/usr/share/nginx/html/ nginx">
 <meta property="og:locale" content="zh-CN">
+<meta property="og:updated_time" content="2019-02-20T07:31:38.028Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="Joe&#39;s studio">
-<meta name="twitter:description" content="Welcome to Joe&apos;s Studio">
+<meta name="twitter:title" content="Docker Study - Day 3">
+<meta name="twitter:description" content="How to use bind on docker使用bind类型，source指定当前目录，使用nginx静态页，加载以nginx为镜像的容器1docker run -d 8080:80 --name nginx1 --mount type=bind,source=&amp;quot;$&amp;#123;PWD&amp;#125;&amp;quot;,target=/usr/share/nginx/html/ nginx">
 
 
 
@@ -120,13 +121,13 @@
 
 
 
-  <link rel="canonical" href="http://yoursite.com/tags/Python/">
+  <link rel="canonical" href="http://yoursite.com/2019/02/19/Docker-Study-Day-3/">
 
 
 
 
 
-  <title>Tag: Python | Joe's studio</title>
+  <title>Docker Study - Day 3 | Joe's studio</title>
   
 
 
@@ -145,7 +146,7 @@
     
   
 
-  <div class="container sidebar-position-left ">
+  <div class="container sidebar-position-left page-post-detail">
     <div class="headband"></div>
 
     <header id="header" class="header" itemscope="" itemtype="http://schema.org/WPHeader">
@@ -219,52 +220,148 @@
           <div id="content" class="content">
             
 
-  
-  
-  
-  <div class="post-block tag">
+  <div id="posts" class="posts-expand">
+    
 
-    <div id="posts" class="posts-collapse">
-      <div class="collection-title">
-        <h1>Python<small>Tag</small>
-        </h1>
-      </div>
+  
 
-      
-        
+  
+  
+  
 
   <article class="post post-type-normal" itemscope="" itemtype="http://schema.org/Article">
-    <header class="post-header">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2019/02/19/Docker-Study-Day-3/">
 
-      <h2 class="post-title">
+    <span hidden itemprop="author" itemscope="" itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="Joe Bai">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="https://avatars2.githubusercontent.com/u/5300359?v=4&s=460">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope="" itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Joe's studio">
+    </span>
+
+    
+      <header class="post-header">
+
         
-            <a class="post-title-link" href="/2019/02/12/begin-with-Python/" itemprop="url">
-              
-                <span itemprop="name">Begin with Python</span>
-              
-            </a>
         
-      </h2>
+          <h1 class="post-title" itemprop="name headline">Docker Study - Day 3</h1>
+        
 
-      <div class="post-meta">
-        <time class="post-time" itemprop="dateCreated" datetime="2019-02-13T07:32:00+08:00" content="2019-02-13">
-          02-13
-        </time>
-      </div>
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">Posted on</span>
+              
+              <time title="Post created" itemprop="dateCreated datePublished" datetime="2019-02-19T07:34:23-05:00">
+                2019-02-19
+              </time>
+            
 
-    </header>
-  </article>
+            
 
+            
+          </span>
+
+          
+
+          
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
 
       
-    </div>
+      
 
+      
+        <h4 id="How-to-use-bind-on-docker"><a href="#How-to-use-bind-on-docker" class="headerlink" title=" How to use bind on docker"></a><center> How to use bind on docker</center></h4><p>使用bind类型，source指定当前目录，使用nginx静态页，加载以nginx为镜像的容器<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">docker run -d 8080:80 --name nginx1 --mount type=bind,source=&quot;$&#123;PWD&#125;&quot;,target=/usr/share/nginx/html/ nginx</span><br></pre></td></tr></table></figure></p>
+<h4 id="Docker-compose-Manage-differernt-containers"><a href="#Docker-compose-Manage-differernt-containers" class="headerlink" title=" Docker compose, Manage differernt containers"></a><center> Docker compose, Manage differernt containers</center></h4><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">https://github.com/docker/compose/releases</span><br></pre></td></tr></table></figure>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">sudo su</span><br><span class="line">curl -L https://github.com/docker/compose/releases/download/1.24.0-rc1/docker-compose-`uname -s`-`uname -m` -o /usr/local/bin/docker-compose</span><br><span class="line"></span><br><span class="line">chmod +X /usr/local/bin/docker-compose</span><br></pre></td></tr></table></figure>
+<p>使用Compose, redius,搭建web</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br></pre></td><td class="code"><pre><span class="line">cd docker-study/compose1/</span><br><span class="line"></span><br><span class="line">启动compose</span><br><span class="line">docker-compose up</span><br><span class="line"></span><br><span class="line">后台启动</span><br><span class="line">docker-compose up -d</span><br><span class="line"></span><br><span class="line">删除</span><br><span class="line">docker-compose down</span><br><span class="line"></span><br><span class="line">停止</span><br><span class="line">docker-compose stop</span><br></pre></td></tr></table></figure>
+      
+    </div>
+    
+    
+    
+
+    
+
+    
+
+    
+
+    <footer class="post-footer">
+      
+
+      
+      
+      
+
+      
+        <div class="post-nav">
+          <div class="post-nav-next post-nav-item">
+            
+              <a href="/2019/02/17/ocker-Study-Day-2/" rel="next" title="Docker Study - Day 2">
+                <i class="fa fa-chevron-left"></i> Docker Study - Day 2
+              </a>
+            
+          </div>
+
+          <span class="post-nav-divider"></span>
+
+          <div class="post-nav-prev post-nav-item">
+            
+              <a href="/2019/02/20/Docker-Study-Day-4-2/" rel="prev" title="Docker Study - Day 4">
+                Docker Study - Day 4 <i class="fa fa-chevron-right"></i>
+              </a>
+            
+          </div>
+        </div>
+      
+
+      
+      
+    </footer>
   </div>
   
   
   
+  </article>
 
-  
+
+
+    <div class="post-spread">
+      
+    </div>
+  </div>
 
 
           </div>
@@ -272,6 +369,10 @@
 
 
           
+
+  
+
+
 
         </div>
         
@@ -292,8 +393,17 @@
       
 
       
+        <ul class="sidebar-nav motion-element">
+          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap">
+            Table of Contents
+          </li>
+          <li class="sidebar-nav-overview" data-target="site-overview-wrap">
+            Overview
+          </li>
+        </ul>
+      
 
-      <section class="site-overview-wrap sidebar-panel sidebar-panel-active">
+      <section class="site-overview-wrap sidebar-panel">
         <div class="site-overview">
           <div class="site-author motion-element" itemprop="author" itemscope="" itemtype="http://schema.org/Person">
             
@@ -384,6 +494,22 @@
         </div>
       </section>
 
+      
+      <!--noindex-->
+        <section class="post-toc-wrap motion-element sidebar-panel sidebar-panel-active">
+          <div class="post-toc">
+
+            
+              
+            
+
+            
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-4"><a class="nav-link" href="#How-to-use-bind-on-docker"><span class="nav-number">1.</span> <span class="nav-text"> How to use bind on docker</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#Docker-compose-Manage-differernt-containers"><span class="nav-number">2.</span> <span class="nav-text"> Docker compose, Manage differernt containers</span></a></li></ol></div>
+            
+
+          </div>
+        </section>
+      <!--/noindex-->
       
 
       
@@ -517,6 +643,10 @@
   
 
   
+  <script type="text/javascript" src="/js/src/scrollspy.js?v=5.1.4"></script>
+<script type="text/javascript" src="/js/src/post-details.js?v=5.1.4"></script>
+
+
 
   
 

@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2019-02-14T01:56:42.671Z</updated>
+  <updated>2019-02-21T08:18:21.756Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -15,6 +15,86 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Docker Study - Day 4</title>
+    <link href="http://yoursite.com/2019/02/20/Docker-Study-Day-4-2/"/>
+    <id>http://yoursite.com/2019/02/20/Docker-Study-Day-4-2/</id>
+    <published>2019-02-20T12:49:11.000Z</published>
+    <updated>2019-02-21T08:18:21.756Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h4 id=&quot;How-to-push-images-to-Docker-hub&quot;&gt;&lt;a href=&quot;#How-to-push-images-to-Docker-hub&quot; class=&quot;headerlink&quot; title=&quot;How to push images to Docker
+      
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Docker Study - Day 3</title>
+    <link href="http://yoursite.com/2019/02/19/Docker-Study-Day-3/"/>
+    <id>http://yoursite.com/2019/02/19/Docker-Study-Day-3/</id>
+    <published>2019-02-19T12:34:23.000Z</published>
+    <updated>2019-02-20T07:31:38.028Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h4 id=&quot;How-to-use-bind-on-docker&quot;&gt;&lt;a href=&quot;#How-to-use-bind-on-docker&quot; class=&quot;headerlink&quot; title=&quot; How to use bind on docker&quot;&gt;&lt;/a&gt;&lt;center&gt; H
+      
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Docker Study - Day 2</title>
+    <link href="http://yoursite.com/2019/02/17/ocker-Study-Day-2/"/>
+    <id>http://yoursite.com/2019/02/17/ocker-Study-Day-2/</id>
+    <published>2019-02-17T23:45:00.000Z</published>
+    <updated>2019-02-21T02:54:05.264Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h4 id=&quot;How-to-make-Volume-on-Docker&quot;&gt;&lt;a href=&quot;#How-to-make-Volume-on-Docker&quot; class=&quot;headerlink&quot; title=&quot;How to make Volume on Docker&quot;&gt;&lt;/a&gt;&lt;c
+      
+    
+    </summary>
+    
+    
+      <category term="Docker" scheme="http://yoursite.com/tags/Docker/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Docker Study - Day 1</title>
+    <link href="http://yoursite.com/2019/02/16/Docker-Study/"/>
+    <id>http://yoursite.com/2019/02/16/Docker-Study/</id>
+    <published>2019-02-16T15:58:00.000Z</published>
+    <updated>2019-02-19T01:43:40.055Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h2 id=&quot;Install&quot;&gt;&lt;a href=&quot;#Install&quot; class=&quot;headerlink&quot; title=&quot;Install&quot;&gt;&lt;/a&gt;Install&lt;/h2&gt;&lt;figure class=&quot;highlight plain&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=
+      
+    
+    </summary>
+    
+      <category term="Docker" scheme="http://yoursite.com/categories/Docker/"/>
+    
+    
+  </entry>
   
   <entry>
     <title>Begin with Python</title>
@@ -38,26 +118,6 @@
   </entry>
   
   <entry>
-    <title>This is the first news</title>
-    <link href="http://yoursite.com/2019/02/12/This-is-the-first-news/"/>
-    <id>http://yoursite.com/2019/02/12/This-is-the-first-news/</id>
-    <published>2019-02-12T09:08:26.000Z</published>
-    <updated>2019-02-12T09:08:28.718Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;p&gt;First page, joe bai, 2019&lt;/p&gt;
-
-      
-    
-    </summary>
-    
-    
-  </entry>
-  
-  <entry>
     <title>Hello World</title>
     <link href="http://yoursite.com/2019/02/12/hello-world/"/>
     <id>http://yoursite.com/2019/02/12/hello-world/</id>
@@ -69,6 +129,26 @@
       
       
         &lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.
+      
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>This is the first news</title>
+    <link href="http://yoursite.com/2019/02/11/This-is-the-first-news/"/>
+    <id>http://yoursite.com/2019/02/11/This-is-the-first-news/</id>
+    <published>2019-02-11T20:08:26.000Z</published>
+    <updated>2019-02-12T09:08:28.718Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;First page, joe bai, 2019&lt;/p&gt;
+
       
     
     </summary>
