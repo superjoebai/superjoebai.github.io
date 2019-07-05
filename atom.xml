@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Joe&#39;s studio</title>
+  <icon>https://www.gravatar.com/avatar/64ca6644fb0c2acaa537d99fb7eef762</icon>
+  
+  <link href="/atom.xml" rel="self"/>
+  
+  <link href="http://yoursite.com/"/>
+  <updated>2019-02-14T01:56:42.671Z</updated>
+  <id>http://yoursite.com/</id>
+  
+  <author>
+    <name>Joe Bai</name>
+    <email>joe_bai@outlook.com</email>
+  </author>
+  
+  <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Begin with Python</title>
+    <link href="http://yoursite.com/2019/02/12/begin-with-Python/"/>
+    <id>http://yoursite.com/2019/02/12/begin-with-Python/</id>
+    <published>2019-02-12T23:32:00.000Z</published>
+    <updated>2019-02-14T01:56:42.671Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;figure class=&quot;highlight plain&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span cla
+      
+    
+    </summary>
+    
+    
+      <category term="Python" scheme="http://yoursite.com/tags/Python/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>This is the first news</title>
+    <link href="http://yoursite.com/2019/02/12/This-is-the-first-news/"/>
+    <id>http://yoursite.com/2019/02/12/This-is-the-first-news/</id>
+    <published>2019-02-12T09:08:26.000Z</published>
+    <updated>2019-02-12T09:08:28.718Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;First page, joe bai, 2019&lt;/p&gt;
+
+      
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Hello World</title>
+    <link href="http://yoursite.com/2019/02/12/hello-world/"/>
+    <id>http://yoursite.com/2019/02/12/hello-world/</id>
+    <published>2019-02-12T05:51:17.622Z</published>
+    <updated>2019-02-12T05:51:17.622Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.
+      
+    
+    </summary>
+    
+    
+  </entry>
+  
+</feed>
