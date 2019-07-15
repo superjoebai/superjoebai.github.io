@@ -5,9 +5,9 @@
   
   <link href="/atom.xml" rel="self"/>
   
-  <link href="http://yoursite.com/"/>
+  <link href="http://baikaiyao.com/"/>
   <updated>2019-02-21T08:18:21.756Z</updated>
-  <id>http://yoursite.com/</id>
+  <id>http://baikaiyao.com/</id>
   
   <author>
     <name>Joe Bai</name>
@@ -18,8 +18,8 @@
   
   <entry>
     <title>Docker Study - Day 4</title>
-    <link href="http://yoursite.com/2019/02/20/Docker-Study-Day-4-2/"/>
-    <id>http://yoursite.com/2019/02/20/Docker-Study-Day-4-2/</id>
+    <link href="http://baikaiyao.com/2019/02/20/Docker-Study-Day-4-2/"/>
+    <id>http://baikaiyao.com/2019/02/20/Docker-Study-Day-4-2/</id>
     <published>2019-02-20T12:49:11.000Z</published>
     <updated>2019-02-21T08:18:21.756Z</updated>
     
@@ -37,8 +37,8 @@
   
   <entry>
     <title>Docker Study - Day 3</title>
-    <link href="http://yoursite.com/2019/02/19/Docker-Study-Day-3/"/>
-    <id>http://yoursite.com/2019/02/19/Docker-Study-Day-3/</id>
+    <link href="http://baikaiyao.com/2019/02/19/Docker-Study-Day-3/"/>
+    <id>http://baikaiyao.com/2019/02/19/Docker-Study-Day-3/</id>
     <published>2019-02-19T12:34:23.000Z</published>
     <updated>2019-02-20T07:31:38.028Z</updated>
     
@@ -56,8 +56,8 @@
   
   <entry>
     <title>Docker Study - Day 2</title>
-    <link href="http://yoursite.com/2019/02/17/ocker-Study-Day-2/"/>
-    <id>http://yoursite.com/2019/02/17/ocker-Study-Day-2/</id>
+    <link href="http://baikaiyao.com/2019/02/17/ocker-Study-Day-2/"/>
+    <id>http://baikaiyao.com/2019/02/17/ocker-Study-Day-2/</id>
     <published>2019-02-17T23:45:00.000Z</published>
     <updated>2019-02-21T02:54:05.264Z</updated>
     
@@ -71,14 +71,14 @@
     </summary>
     
     
-      <category term="Docker" scheme="http://yoursite.com/tags/Docker/"/>
+      <category term="Docker" scheme="http://baikaiyao.com/tags/Docker/"/>
     
   </entry>
   
   <entry>
     <title>Docker Study - Day 1</title>
-    <link href="http://yoursite.com/2019/02/16/Docker-Study/"/>
-    <id>http://yoursite.com/2019/02/16/Docker-Study/</id>
+    <link href="http://baikaiyao.com/2019/02/16/Docker-Study/"/>
+    <id>http://baikaiyao.com/2019/02/16/Docker-Study/</id>
     <published>2019-02-16T15:58:00.000Z</published>
     <updated>2019-02-19T01:43:40.055Z</updated>
     
@@ -91,15 +91,15 @@
     
     </summary>
     
-      <category term="Docker" scheme="http://yoursite.com/categories/Docker/"/>
+      <category term="Docker" scheme="http://baikaiyao.com/categories/Docker/"/>
     
     
   </entry>
   
   <entry>
     <title>Begin with Python</title>
-    <link href="http://yoursite.com/2019/02/12/begin-with-Python/"/>
-    <id>http://yoursite.com/2019/02/12/begin-with-Python/</id>
+    <link href="http://baikaiyao.com/2019/02/12/begin-with-Python/"/>
+    <id>http://baikaiyao.com/2019/02/12/begin-with-Python/</id>
     <published>2019-02-12T23:32:00.000Z</published>
     <updated>2019-02-14T01:56:42.671Z</updated>
     
@@ -113,14 +113,14 @@
     </summary>
     
     
-      <category term="Python" scheme="http://yoursite.com/tags/Python/"/>
+      <category term="Python" scheme="http://baikaiyao.com/tags/Python/"/>
     
   </entry>
   
   <entry>
     <title>Hello World</title>
-    <link href="http://yoursite.com/2019/02/12/hello-world/"/>
-    <id>http://yoursite.com/2019/02/12/hello-world/</id>
+    <link href="http://baikaiyao.com/2019/02/12/hello-world/"/>
+    <id>http://baikaiyao.com/2019/02/12/hello-world/</id>
     <published>2019-02-12T05:51:17.622Z</published>
     <updated>2019-02-12T05:51:17.622Z</updated>
     
@@ -138,8 +138,8 @@
   
   <entry>
     <title>This is the first news</title>
-    <link href="http://yoursite.com/2019/02/11/This-is-the-first-news/"/>
-    <id>http://yoursite.com/2019/02/11/This-is-the-first-news/</id>
+    <link href="http://baikaiyao.com/2019/02/11/This-is-the-first-news/"/>
+    <id>http://baikaiyao.com/2019/02/11/This-is-the-first-news/</id>
     <published>2019-02-11T20:08:26.000Z</published>
     <updated>2019-02-12T09:08:28.718Z</updated>
     
